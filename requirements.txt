@@ -1,0 +1,30 @@
+# === 基礎 Python 工具 ===
+numpy
+pandas
+tqdm
+uvicorn
+
+# === LLM / Embedding / Reranker ===
+transformers>=4.38.0
+accelerate>=0.30.0
+sentencepiece
+protobuf
+
+# === GPU/CPU 加速 ===
+torch           # 安裝方式視你的 CUDA 而定，請另行安裝官方版本
+
+# === Vector DB ===
+faiss-cpu       # 如果你要 GPU，改成 faiss-gpu
+
+# === API Server ===
+fastapi
+
+# === File Processing ===
+python-multipart
+pdfminer.six
+PyMuPDF
+unstructured
+
+# === JSON / Log 工具 ===
+ujson
+loguru
